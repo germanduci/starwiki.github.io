@@ -1,5 +1,5 @@
 body {
-    background-image: url("/files/bg.jpg");
+    background-image: url("files/bg.jpg");
     font-family: 'Roboto', sans-serif;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -8,7 +8,7 @@ body {
 
 @font-face {
     font-family: "starwars";
-    src: url("/files/Starjedi.ttf")
+    src: url("files/Starjedi.ttf")
     
    
 }
