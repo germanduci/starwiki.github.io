@@ -1,16 +1,14 @@
 body {
-    background-image: url("files/bg.jpg");
+    background-image: url("./files/bg.jpg");
     font-family: 'Roboto', sans-serif;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
 }
 
 @font-face {
     font-family: "starwars";
-    src: url("files/Starjedi.ttf")
-    
-   
+    src: url("./files/Starjedi.ttf")    
 }
 
 .fuente {
@@ -28,13 +26,9 @@ body {
 
 .heads{
     height: 250px;
-
 }
 
 .r2d2 {
     margin-top: 100px;
     height: 150px;
 }
-
-
-
