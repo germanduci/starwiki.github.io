@@ -1,10 +1,10 @@
 
-let audioChewie = new Audio("/files/chewie.mp3");
-let audioR2d2 = new Audio("/files/r2d2.mp3")
-let audioC3po = new Audio("/files/c3po.mp3")
+let audioChewie = new Audio("files/chewie.mp3");
+let audioR2d2 = new Audio("files/r2d2.mp3")
+let audioC3po = new Audio("files/c3po.mp3")
 
 function mensaje(){
-    let cantina = new Audio("/files/cantina.mp3")
+    let cantina = new Audio("files/cantina.mp3")
     cantina.play()
     let input1 = document.getElementById("nombre").value
         if(input1){
