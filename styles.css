@@ -1,0 +1,40 @@
+body {
+    background-image: url("/files/bg.jpg");
+    font-family: 'Roboto', sans-serif;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+@font-face {
+    font-family: "starwars";
+    src: url("/files/Starjedi.ttf")
+    
+   
+}
+
+.fuente {
+    font-family: "starwars";    
+    letter-spacing: 1px;    
+    -webkit-text-fill-color:  rgb(230, 178, 9);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.row{
+    margin-top: 50px;
+
+}
+
+.heads{
+    height: 250px;
+
+}
+
+.r2d2 {
+    margin-top: 100px;
+    height: 150px;
+}
+
+
+
